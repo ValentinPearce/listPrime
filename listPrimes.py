@@ -5,6 +5,7 @@ class MangeNombre:
   def __init__(self, c = 2, n = None):
     self.current = c;
     self.nextMangeNombre = n;
+    print self.current;
   def eat(self, arg):
     if arg%self.current != 0:
       # Tested number is not divideable by current MangeNombre
@@ -13,7 +14,6 @@ class MangeNombre:
         return (self.nextMangeNombre).eat(arg);
       else :
         # Tested Number is a prime Number
-        print arg;
         return True;
     else :
       return False;
@@ -26,8 +26,6 @@ def listPrimes(N):
     if tab[0].eat(i) == True:
       tab.append(MangeNombre(i));
       tab[len(tab)-2].nextMangeNombre = tab[len(tab)-1];
-    else :
-      i+=1;
       
 #####
 
