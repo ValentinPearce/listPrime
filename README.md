@@ -1,7 +1,7 @@
 # listPrime
 Small program listing primes numbers
 
-The mangeNombre class and listPrimes() function were asked for in an exercise and are now availiable for fellow students and anyone interested.
+The MangeNombre class and listPrimes() function were asked for in an exercise and are now availiable for fellow students and anyone interested.
 
 Feel free to suggest modifications.
 
